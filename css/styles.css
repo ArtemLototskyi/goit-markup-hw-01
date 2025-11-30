@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #fff;
 }
 
 ul,
@@ -8,8 +9,12 @@ ol {
   list-style-type: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header-logo {
-  font-family: "Relawey", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -50,6 +55,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  font-style: normal;
 }
 
 .contact-info:hover,
@@ -82,7 +88,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointer;
 }
 
 .header-page-button:hover,
@@ -155,7 +160,7 @@ ol {
 }
 
 .footer-logo {
-  font-family: "Relawey", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
